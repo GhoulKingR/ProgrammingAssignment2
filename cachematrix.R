@@ -20,7 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function uses caching techniques to
+## optimize the process of getting the
+## inverse of a matrix
 
 cacheSolve <- function(x, ...) {
   i <- x$getInverse()
